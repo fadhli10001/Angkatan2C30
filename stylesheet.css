@@ -1,0 +1,242 @@
+/* Ketik code Anda dibaris terakhir */
+
+* {
+  box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 200px 0 100px 0;
+  /*background-color: #ff007f; */
+  background-image: url(backgroundd.jpg);
+  background-size: cover;
+  color: #000;
+}
+
+.top-wrapper h1 {
+  opacity: 0.8;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  margin: 40px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.html {
+  background-color: #FFA500;
+}
+
+.php {
+  background-color: #800000;
+  padding-right: 10px;
+}
+
+.javascript {
+  background-color: #00BFFF;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  /*display: inline-block;*/
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: black;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  margin-left: 0px;
+}
+
+.header-left h1 {
+  font-size: 28px;
+  float: left;
+  margin-left: 0px;
+  color: white;
+  line-height: 65px;
+  text-align: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(43, 191, 254, 0.5);
+}
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #fff;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: bold;
+  font-color: #000;
+  font-size: 28px;
+}
+
+.lesson {
+  float: left;
+  width: 30%;
+  margin: 0px 10px 0px 10px;
+  padding: 0px 10px 0px 10px;
+  border-radius: 20px;
+}
+
+.html-lesson {
+  background-color: rgba(253, 215, 3, 0.7);
+}
+.php-lesson {
+  background-color: rgba(175, 238, 239, 0.7);
+}
+.js-lesson {
+  background-color: rgba(175, 238, 239, 0.7);
+}
+
+
+.lesson-icon img{
+  position: relative;
+  width: 50%;
+  padding-top:30px;
+  padding-bottom:30px;
+  font-size: 40px;
+}
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  font-size: 15px;
+  color: #000;
+  padding-bottom: 50px;
+}
+
+.heading h3 {
+  padding-top: 15px;
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+  background-color: #F8F8FF;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #0000FF;
+  cursor: pointer;
+  box-shadow: 0 7px #A9A9A9;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.footer {
+  background-color: #000;
+  padding-top: 15px;
+  padding-bottom: 100px;
+}
+
+/* Ketik code Anda dibaris bawah */
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+.footer-logo{
+    float:left;
+    color:white;
+    padding: 25px 0px 0px 50px;
+    font-weight:bolder
+}
+.footer-list{
+    float:right;
+    color: white;
+    text-align:right;
+    padding-right: 50px;
+}
+li {
+  list-style: none;
+}
